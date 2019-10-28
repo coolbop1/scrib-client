@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    	<link rel="stylesheet" href="css/responsive.css">
+   
+    <title> Welcome to Scrib</title>
+   
+</head>
+<body onload="navigate('home')">
+    <header id="mainheader">
+        <div id="logo">
+            <a   onclick="opentab('contenttab',1); navigate('home')"><h1>SCR<img src="icons/png/edit.png" height="25px">B</h1></a>
+        </div>
+        <nav id="menulist" class="splace">
+            <ul id="ulist" class="splace">
+                <li><div onclick="opentab(this.id,0)" id="contenttab" class="presenttab nav" ><a   >home</a></div></li>
+                <li><div onclick=" opentab(this.id,0)" id="abouttab" class="splace nav"><a  >about</a></div></li>
+                <li><div onclick=" opentab(this.id,0)" id="logintab" class="splace nav"><a  >signin</a></div></li>
+                <li><div onclick=" opentab(this.id,0)" id="regtab" class="splace nav"><a  >signup</a></div></li>
+            </ul>
+        </nav>
+        <div class="big" onclick="opennav('small')" id="menu">
+        	<div id="fcros" class="cros"></div>
+        	<div id="mid" class=" mid"></div>
+        	<div id="scros" class="cro"></div>
+        </div>
+        <div class="fnone"></div>
+    </header>
+    <section id="contents" class="splace">
+    
+  
+   
+    </section>
+    <footer class="fnone">
+    	<table>
+    		<tr>
+    		<td class="firsttd">Quick Links</td>
+    		</tr>
+    		<tr>
+    			<td><a href="">PRIVACY POLICIES</a></td>
+    			<td><a  >CONTACT US</a></td>
+    		</tr> 
+    		<div id="footer"> <span>&copy; www.scrib.com.ng</span>
+    		</div>
+    	</table>
+    </footer>
+     <script src="js/client.js"></script>
+    <script src="js/main.js"></script>
+
+     
+</body>
+</html>
